@@ -8,7 +8,7 @@ namespace src
 {
     class BeepSequence
     {
-        public string Name = "Base";
+        public string Name = "BeepSequence";
         public bool Beeping = false;
 
         public void Beep()
