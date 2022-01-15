@@ -44,7 +44,7 @@ The text class is a class that lets you add text to the console.
 ### Methods
 ` Display() `
 <br>
-` SetColor(string color) `
+` SetColor(ConsoleColor color) `
 <br>
 ` Destroy() `
 
@@ -89,5 +89,16 @@ The BeepSequence class lets you beep the console once, or up to 12 times.
 ` Beep() `
 <br>
 ` CreateSequence(int length) `
+<br>
+` Destroy() `
+
+##
+` App `
+The app class is a class that lets you modify the console.
+
+### Methods
+` SetBackgroundColor(ConsoleColor color) `
+<br>
+` SetForegroundColor(ConsoleColor color) `
 <br>
 ` Destroy() `
