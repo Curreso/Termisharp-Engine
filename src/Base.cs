@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace src.CoreClasses
+namespace src
 {
     // Core class where every instance inherits from.
 
