@@ -21,11 +21,9 @@ namespace src
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        public void SetColor(string color)
+        public void SetColor(ConsoleColor color)
         {
-            string lowered = color.ToLower();
-
-            TextColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), lowered);
+            TextColor = color;
         }
 
         public void Destroy()
