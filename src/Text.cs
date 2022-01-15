@@ -10,13 +10,8 @@ namespace src
     {
         // Text object that can be displayed on the console.
 
-        string Name = "Text";
-        string TextContent = "Lorem Ipsum";
-
-        public void ChangeText(string txt)
-        {
-            TextContent = txt;
-        }
+        public string Name = "Text";
+        public string TextContent = "Lorem Ipsum";
 
         public void Display()
         {
