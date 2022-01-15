@@ -11,11 +11,11 @@ namespace src
     class Base
     {
         // manifest / properties
-        string Name = "Base";
+        public string Name = "Base";
 
         void Destroy()
         {
-            
+
         }
     }
 }
