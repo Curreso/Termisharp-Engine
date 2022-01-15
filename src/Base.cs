@@ -13,7 +13,7 @@ namespace src
         // manifest / properties
         public string Name = "Base";
 
-        void Destroy()
+        public void Destroy()
         {
 
         }
