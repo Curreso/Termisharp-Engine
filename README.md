@@ -75,14 +75,14 @@ The prompt class is a class that lets you display text aswell as allowing the us
 ##
 ` Player `
 <br>
-The player class is a class that lets you create a player.
+The player class is a powerful class that lets you create a player.
 
 ### Methods
 ` Move(int x, int y) `
 <br>
 ` Teleport(int x, int y) `
 <br>
-` DisplayPosition() `
+` GetPosition() `
 <br>
 ` CreateCharacterCreationSession() `
 <br>
