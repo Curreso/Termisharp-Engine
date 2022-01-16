@@ -27,6 +27,11 @@ namespace src
             XPos = x;
             YPos = y;
         }
+        
+        public void DisplayPosition()
+        {
+            Console.WriteLine(XPos + "," + YPos);
+        }
 
         public void CreateCharacterCreationSession()
         {
