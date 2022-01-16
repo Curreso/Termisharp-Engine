@@ -117,7 +117,7 @@ The app class is a powerful class that lets you modify the console.
 ##
 ` Subject `
 <br>
-The subject class is a powerful class that lets you create entities that can act as enemeies, coutries, troops, NPCs, etc in your games.
+The subject class is a powerful class that lets you create entities that can act as enemeies, countries, troops, NPCs, etc in your games.
 
 ### Methods
 ` Move(int x, int y) `
