@@ -44,12 +44,9 @@ namespace Termisharp
             }
         }
 
-        public void DisplayPosition()
+        public string GetPosition()
         {
-            if (!Vanished)
-            {
-                Console.WriteLine(XPos + "," + YPos);
-            }
+            return XPos + "," + YPos;
         }
 
         public void ToggleVanished()
