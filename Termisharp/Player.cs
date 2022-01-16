@@ -28,9 +28,9 @@ namespace Termisharp
             YPos = y;
         }
         
-        public void DisplayPosition()
+        public string GetPosition()
         {
-            Console.WriteLine(XPos + "," + YPos);
+            return XPos + "," + YPos;
         }
 
         public void CreateCharacterCreationSession()
