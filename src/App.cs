@@ -23,6 +23,11 @@ namespace src
             ForegroundColor = color;
             Console.ForegroundColor = ForegroundColor;
         }
+        
+        public void Clear()
+        {
+            Console.Clear();
+        }
 
         public void Destroy()
         {
