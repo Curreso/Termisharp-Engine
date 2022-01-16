@@ -9,7 +9,7 @@ This documentation covers all classes inside of the Termisharp game engine.
 There are different types of values in Termisharp, that are also present in C#.
 
 ` TextColor `
-TextColor is a value and property of the ` Text ` class. Using Text.SetColor(string color), allows you to choose from 14 different text colors. TextColor uses ConsoleColor values.
+TextColor is a value and property of the ` Text ` class. Using Text.SetColor(ConsoleColor color), allows you to choose from 14 different text colors. TextColor uses ConsoleColor values.
 * Black
 * Blue
 * Cyan
