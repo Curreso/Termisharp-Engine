@@ -124,7 +124,7 @@ The subject class is a powerful class that lets you create entities that can act
 <br>
 ` Teleport(int x, int y) `
 <br>
-` DisplayPosition() `
+` GetPosition() `
 <br>
 ` ToggleVanished() `
 <br>
