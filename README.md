@@ -32,6 +32,7 @@ TextColor is a value and property of the ` Text ` class. Using Text.SetColor(str
 
 ##
 `Base `
+<br>
 The base is the core class that all classes inherit from. 
 
 ### Methods
@@ -39,6 +40,7 @@ The base is the core class that all classes inherit from.
 
 ##
 ` Text `
+<br>
 The text class is a class that lets you add text to the console.
 
 ### Methods
@@ -50,6 +52,7 @@ The text class is a class that lets you add text to the console.
 
 ##
 ` Input `
+<br>
 The input class is a class that lets you allow the user to input text.
 
 ### Methods
@@ -61,6 +64,7 @@ The input class is a class that lets you allow the user to input text.
 
 ##
 ` Prompt `
+<br>
 The prompt class is a class that lets you display text aswell as allowing the user to input stuff.
 
 ### Methods
@@ -70,6 +74,7 @@ The prompt class is a class that lets you display text aswell as allowing the us
 
 ##
 ` Player `
+<br>
 The player class is a class that lets you create a player.
 
 ### Methods
@@ -85,6 +90,7 @@ The player class is a class that lets you create a player.
 
 ##
 ` BeepSequence `
+<br>
 The BeepSequence class lets you beep the console once, or up to 12 times.
 
 ### Methods
@@ -96,7 +102,8 @@ The BeepSequence class lets you beep the console once, or up to 12 times.
 
 ##
 ` App `
-The app class is a class that lets you modify the console.
+<br>
+The app class is a powerful class that lets you modify the console.
 
 ### Methods
 ` SetBackgroundColor(ConsoleColor color) `
@@ -104,5 +111,21 @@ The app class is a class that lets you modify the console.
 ` SetForegroundColor(ConsoleColor color) `
 <br>
 ` Clear() `
+<br>
+` Destroy() `
+
+##
+` Subject `
+<br>
+The subject class is a powerful class that lets you create entities that can act as enemeies, coutries, troops, NPCs, etc in your games.
+
+### Methods
+` Move(int x, int y) `
+<br>
+` Teleport(int x, int y) `
+<br>
+` DisplayPosition() `
+<br>
+` ToggleVanished() `
 <br>
 ` Destroy() `
