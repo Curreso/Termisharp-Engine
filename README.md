@@ -103,4 +103,6 @@ The app class is a class that lets you modify the console.
 <br>
 ` SetForegroundColor(ConsoleColor color) `
 <br>
+` Clear() `
+<br>
 ` Destroy() `
