@@ -30,14 +30,16 @@ namespace Termisharp
                 }
             } else if (length > 12)
             {
-                Console.WriteLine("Error: BeepSequence Sequence must be less than 12 beeps.");
+                Error longLengthError = new Error();
+                longLengthError.SetErrorContent("BeepSequence Sequence must be less than 12 beeps.");
+                longLengthError.Write();
             } else if (length == 1)
             {
-                Console.WriteLine("Error: BeepSequence sequence must be more than 1 beep. Use Beep() instead.");
+                Error shortLengthError = new Error();
+                shortLengthError.SetErrorContent("BeepSequence Sequence must be more than 1 beep. Use Beep() instead.");
+                shortLengthError.Write();
             }
         }
-
-
 
         public void Destroy()
         {
