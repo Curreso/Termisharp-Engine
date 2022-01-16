@@ -77,6 +77,8 @@ The player class is a class that lets you create a player.
 <br>
 ` Teleport(int x, int y) `
 <br>
+` DisplayPosition() `
+<br>
 ` CreateCharacterCreationSession() `
 <br>
 ` Destroy() `
