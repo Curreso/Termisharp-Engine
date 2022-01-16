@@ -129,3 +129,15 @@ The subject class is a powerful class that lets you create entities that can act
 ` ToggleVanished() `
 <br>
 ` Destroy() `
+
+##
+` Error `
+<br>
+The error class is a powerful class that lets you create errors. Mostly used in core Termisharp classes, and is not recommended in normal scripts.
+
+### Methods
+` SetErrorContent(string err) `
+<br>
+` Write() `
+<br>
+` Destroy() `
