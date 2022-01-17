@@ -13,6 +13,7 @@ namespace Termisharp
         public string Description = "";
         public int XPos = 0;
         public int YPos = 0;
+        List<string> PlayerTable = new List<string>();
 
         public void Move(int x, int y)
         {
