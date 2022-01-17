@@ -141,3 +141,13 @@ The error class is a powerful class that lets you create errors. Mostly used in 
 ` Write() `
 <br>
 ` Destroy() `
+
+##
+` Group `
+<br>
+The group class is a powerful class that lets you create groups, which act like C# lists.
+
+### Methods
+` AddItem(string item) `
+<br>
+` Destroy() `
