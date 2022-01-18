@@ -15,10 +15,10 @@ namespace Termisharp
         {
             Console.WriteLine(Context + ": " + Value);
         }
-
-        public void GetInput()
+        
+        public string GetInput()
         {
-            
+            return Value;
         }
 
         public void Destroy()
