@@ -27,42 +27,57 @@ TextColor is a value and property of the ` Text ` class. Using Text.SetColor(Con
 * White
 * Yellow
 
-<br>
 <a href="https://docs.microsoft.com/en-us/dotnet/api/system.consolecolor?view=net-6.0">Source</a>
 
 ##
 `Base `
-<br>
+
 The base is the core class that all classes inherit from. 
 
 ### Methods
-` Destroy() `
+` Destroy() ` ` Void ` 
+
+Destroys the class.
 
 ##
 ` Text `
-<br>
+
 The text class is a class that lets you add text to the console.
 
 ### Methods
-` Display() `
-<br>
-` SmoothWrite(int delay) `
-<br>
-` SetColor(ConsoleColor color) `
-<br>
-` Destroy() `
+` Display() ` ` Void `
+
+Displays the TextContent property.
+
+` SmoothWrite(int delay) ` ` Void `
+
+Smoothly writes the TextContent property. Delay parameter are the milliseconds between each character.
+
+` SetColor(ConsoleColor color) ` ` Void `
+
+Sets the color of the text.
+
+` Destroy() ` ` Void `
+
+Destroys the class.
 
 ##
 ` Input `
-<br>
+
 The input class is a class that lets you allow the user to input text.
 
 ### Methods
-` Display() `
-<br>
-` GetInput() `
-<br>
-` Destroy() `
+` Display() ` ` Void `
+
+Displays the input.
+
+` GetInput() ` ` String `
+
+Returns the Value property.
+
+` Destroy() ` ` Void `
+
+Destroys the class.
 
 ##
 ` Prompt `
@@ -71,19 +86,27 @@ The prompt class is a class that lets you display text aswell as allowing the us
 
 ### Methods
 ` Display() `
-<br>
+
+Displays the prompt.
+
 ` SmoothWrite(int delay) `
-<br>
+
+Smoothly writes the Title property. Delay parameter are the milliseconds between each character.
+
 ` Destroy() `
+
+Destroys the class.
 
 ##
 ` Player `
-<br>
+
 The player class is a powerful class that lets you create a player.
 
 ### Methods
 ` Move(int x, int y) `
-<br>
+
+Allows you to change
+
 ` Teleport(int x, int y) `
 <br>
 ` GetPosition() `
