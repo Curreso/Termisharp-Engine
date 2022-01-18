@@ -28,10 +28,17 @@ namespace Termisharp
         {
             if (!Vanished)
             {
-                Console.ReadLine();
-
-                XPos += x;
-                YPos += y;
+                if (x <= 20 && y <= 20)
+                {
+                    XPos += x;
+                    YPos += y;
+                }
+                else
+                {
+                    Error movementError = new Error();
+                    movementError.ErrorContent = $"You may only move {Alias} by 20 maximum on each axis.";
+                    movementError.Write();
+                }
             }
         }
 
