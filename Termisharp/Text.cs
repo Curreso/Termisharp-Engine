@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Termisharp
 {
@@ -19,6 +20,15 @@ namespace Termisharp
             Console.ForegroundColor = TextColor;
             Console.WriteLine(TextContent);
             Console.ForegroundColor = ConsoleColor.White;
+        }
+        
+        public void SmoothWrite(int delay)
+        {
+            foreach (char ch in TextContent)
+            {
+                Thread.Sleep(delay);
+                Console.Write(ch);
+            }
         }
 
         public void SetColor(ConsoleColor color)
