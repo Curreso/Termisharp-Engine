@@ -24,7 +24,7 @@ namespace Termisharp
         
         public void SmoothWrite(int delay)
         {
-            foreach (char ch in TextContent)
+            foreach (char ch in TextContent + "\n")
             {
                 Thread.Sleep(delay);
                 Console.Write(ch);
