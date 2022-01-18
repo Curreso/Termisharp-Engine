@@ -17,6 +17,15 @@ namespace Termisharp
             Console.WriteLine(Title);
             Value = Console.ReadLine();
         }
+        
+        public void SmoothWrite(int delay)
+        {
+            foreach (char ch in Title + "\n")
+            {
+                Thread.Sleep(delay);
+                Console.Write(ch);
+            }
+        }
 
         public void Destroy()
         {
