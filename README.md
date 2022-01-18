@@ -46,6 +46,8 @@ The text class is a class that lets you add text to the console.
 ### Methods
 ` Display() `
 <br>
+` SmoothWrite(int delay) `
+<br>
 ` SetColor(ConsoleColor color) `
 <br>
 ` Destroy() `
