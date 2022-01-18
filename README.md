@@ -72,6 +72,8 @@ The prompt class is a class that lets you display text aswell as allowing the us
 ### Methods
 ` Display() `
 <br>
+` SmoothWrite(int delay) `
+<br>
 ` Destroy() `
 
 ##
